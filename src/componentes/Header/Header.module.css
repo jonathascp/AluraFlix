@@ -1,0 +1,42 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+    background-color: #262626;
+    border-bottom: 4px solid #2271d1;
+    box-shadow: 0px 5px 29px #2271d1;
+}
+
+.logo {
+    width: 169px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.btn_Home {
+    font-weight: bold;
+    text-align: center;
+    color:#2271d1;
+    background-color: #000000;
+    border: 2px solid #2271d1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 4px #2271d1;
+    padding: 10px 30px;
+}
+
+.btn_NovoVideo {
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #f5f5f5;
+    border-radius: 10px;
+    padding: 10px 30px;
+    
+}

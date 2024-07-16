@@ -1,0 +1,33 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    background-image: url(player-grande.png);
+    background-repeat: no-repeat;
+    height: 700px;
+    border-bottom: 4px solid #6bd1ff;
+}
+
+.card {
+    margin: 0px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.categoria {
+    width: 300px;
+    font-size: 48px;
+    color: #fff;
+    background-color: #6bd1ff;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.titulo {
+    font-size: 46px;
+    color: #fff;
+}
+
+.texto {
+    color: #fff;
+}

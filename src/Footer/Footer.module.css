@@ -1,0 +1,13 @@
+.container {
+    height: 15vh;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 4px solid #2271d1;
+}
+
+.logo {
+    width: 169px;
+    
+}

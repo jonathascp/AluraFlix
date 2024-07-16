@@ -1,0 +1,23 @@
+.categoria {
+    width: 300px;
+    font-size: 48px;
+    color: #fff;
+}
+
+.frontEnd {
+    text-align: center;
+    width: 432px;
+    font-size: 32px;
+    color: #fff;
+    background-color: #6bd1ff;
+    border-radius: 15px;
+    padding: 7px;
+    margin-left: 7px;
+} 
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
