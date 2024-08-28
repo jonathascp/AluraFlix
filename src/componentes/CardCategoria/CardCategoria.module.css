@@ -4,16 +4,27 @@
     color: #fff;
 }
 
-.frontEnd {
+.cardCategoria {
     text-align: center;
     width: 432px;
     font-size: 32px;
     color: #fff;
-    background-color: #6bd1ff;
     border-radius: 15px;
     padding: 7px;
     margin-left: 7px;
-} 
+}
+
+.frontEnd {
+    background-color: #6bd1ff;
+}
+
+.backEnd {
+    background-color: #499f3a;
+}
+
+.mobile {
+    background-color: #ffab6b;
+}
 
 .container {
     display: flex;

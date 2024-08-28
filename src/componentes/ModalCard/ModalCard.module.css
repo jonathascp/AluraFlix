@@ -1,0 +1,52 @@
+.overlay {
+    background-color: rgba(0,0,0,.7);
+    position:fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+select {
+    width: 400px;
+    padding: 10px;
+    border-radius: 9px;
+    background: transparent;
+    color: #fff;
+}
+
+.modal {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid lightgrey;
+    padding-bottom: 15px;
+}
+
+.input_label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.closeBtn {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 7px;
+    background: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1em;
+    border: none;
+}

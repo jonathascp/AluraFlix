@@ -1,15 +1,13 @@
 import Header from "../../componentes/Header"
-import Banner from "../../componentes/Banner"
-import CardsContainer from "../../componentes/CardsContainer"
 import Footer from "../../Footer"
+import { Outlet } from "react-router-dom"
 
 function PaginaPadrao()
 {
     return (
         <main>
             <Header/>
-            <Banner/>
-            <CardsContainer/>
+            <Outlet/>
             <Footer/>
         </main>
        
